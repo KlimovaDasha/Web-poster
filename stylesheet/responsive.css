@@ -1,0 +1,550 @@
+@media (max-width: 1440px) {
+ .blanketfirst  {
+visibility: hidden;
+}
+
+.easy_itemfirst {
+ visibility: hidden;
+}
+
+.blanket_3fifth {
+ visibility: hidden;
+}
+
+.floor_item6 {
+ visibility: hidden;
+}
+
+.stereo_wrapper {
+ grid-template-columns: 1fr 1fr;
+}
+
+.easy_wrapper {
+ grid-template-columns: 1fr 1fr;
+}
+
+.finish_wrapper {
+ grid-template-columns: repeat(7, 1fr);
+ margin-top: -67%;
+}
+
+.left_wrapper {
+ grid-template-columns: 71% 28%;
+}
+
+.floor_left_wrapper {
+ grid-template-columns: repeat(7, 1fr);
+}
+
+/* .floor_wrapper {
+ margin-top: -172%;
+ grid-template-columns: repeat(7, 1fr) 2.38fr;
+} */
+
+.floor_item7 {
+ grid-column-start: 6;
+ grid-column-end: 7;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+.curve_button_item {
+  padding-right: 4.55%;
+}
+
+.floor_item8 {
+ grid-column-start: 7;
+ grid-column-end: 8;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.floor_item9 {
+ grid-column-start: 8;
+ grid-column-end: 9;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.blanketsecond {
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.blanketthird {
+ grid-column-start: 2;
+ grid-column-end: 3;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.easy_itemsecond {
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.easy_itemthird {
+ grid-column-start: 2;
+ grid-column-end: 3;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.blanket_3sixth {
+ grid-column-start: 5;
+ grid-column-end: 6;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.blanket_3seventh {
+ grid-column-start: 6;
+ grid-column-end: 7;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.blanket_3eighth {
+ grid-column-start: 7;
+ grid-column-end: 8;
+ grid-row-start: 1;
+ grid-row-end: 2;
+}
+
+.curve_wrapper {
+ margin-top: -67.7%;
+}
+
+.finish_wrapper {
+ /* margin-top: -88%; */
+ z-index: 4000;
+}
+
+.easy_wrapper {
+ margin-top: -170%;
+ z-index: 3000;
+ /* background-color: #FAF9F9; */
+}
+
+.soundcraft_wrapper {
+ margin-left: -3.5%;
+ height: 42.4%;
+}
+
+.les_end_img {
+ width: 104%;
+ margin-left: -1.1%;
+ margin-top: -4.25%;
+}
+
+.finish_slider4 {
+ margin-bottom: 14%;
+}
+
+ .end {
+ padding-top: 36%;
+}
+
+.footer_wrapper {
+  position: absolute;
+  top: -55%;
+}
+
+}
+
+/* @media (max-width: 1366px) {
+  .blanket001 {
+    visibility: hidden;
+  }
+
+  .black_row_item_1, .white_row_item_1, .yellow_row_item_1 {
+    visibility: hidden;
+  }
+
+.curve_row_item_0, .curve_row_item, .curve_row_item_padding{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+  .wrapper {
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .father_wrapper {
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+.blanket002 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.blanket003 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.blanket004 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.blanket005 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.left_wrapper {
+ grid-template-columns: 66.5% 32.5%;
+}
+
+.curve_top_item {
+  margin-top: -81%;
+}
+
+} */
+
+@media (max-width: 1024px) {
+
+.father_wrapper {
+  grid-template-columns: 1;
+}
+
+.left_wrapper {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* position: absolute; */
+  top: 7%;
+  width: 100%;
+}
+
+.soundcraft_wrapper {
+ position: relative;
+  height: -80%;
+  width: 118.8%;
+  margin-top: -578%;
+  margin-left: -23%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-top: 0.28vw solid #D8D8D8;
+}
+
+.soundcraft_dark_item {
+  padding-bottom: 20%;
+  padding-top: 20%;
+  width: 88%;
+}
+
+.soundcraft_gray_item {
+  padding-bottom: 15%;
+}
+
+.soundcraft_dark {
+  width: 46.4%
+}
+
+.soundcraft_gray_small_item {
+  padding-bottom: 7%;
+  padding-top: 7%;
+  width: 63%;
+}
+
+.soundcraft_gray_item {
+  width: 84%;
+}
+
+.soundcraft_gray {
+  width: 45%;
+}
+
+.soundcraft_mixed_item {
+  padding-bottom: 7%;
+  padding-top: 7%;
+}
+
+.soundcraft_gray_2 {
+  width: 42.2%;
+}
+
+.listen_item {
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.melody_item {
+  padding-bottom: 17.2%;
+  padding-top: 20%;
+}
+
+.twins_red: {
+  width: 34.2%;
+}
+
+.twins_item {
+  width: 74.5%;
+}
+
+.les_end_img {
+  width: 144%;
+}
+
+.easy_wrapper {
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+}
+
+.finish_wrapper {
+  /* position: absolute;
+  width: 70%; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 2fr);
+  grid-column-start: 1;
+  margin-top: -93%;
+  grid-column-end: 2;
+  /* grid-row-start: 3;
+  grid-row-end: 4; */
+}
+
+.blanket_3sixth {
+  margin-top: -30%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.blanket_3seventh {
+  margin-top: -30%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+ .blanket_3eighth {
+   margin-top: -30%;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.blanket_3fifth {
+  margin-top: -30%;
+ visibility: visible;
+}
+
+.soundcraft_name, .end {
+  display: none;
+}
+
+.grey_text, .green_text, .blue_text, .yellow_text, .red_text, .gray_small_text, .black_row_text, .white_row_text, .yellow_row_text_2, .yellow_row_text, .easy_green_text,  .easy_late_text, .peak_green_text, .peak_greener_text, .peak_blue_text, .easy_green_text_2, .peak_bluer_text, .peak_yellow_text, .peak_yellower_text, .peak_red_text, .peak_reder_text, .dark_text, .soundcraft_gray_text, .soundcraft_gray_small_text{
+  font-size: 1vw;
+}
+
+.curve_button_text {
+  font-size: 3.8vw;
+}
+
+.yellow_button_text {
+  font-size: 2.9vw;
+}
+
+.listen_button_text {
+  font-size: 2.9vw;
+}
+
+.top_curve_text {
+    font-size: 1.5vw;
+  }
+.easy_red_text, .red_group_text, .twins_red_text {
+  font-size: 1vw;
+}
+
+}
+
+@media (max-width: 414px) {
+
+.stereo_wrapper {
+  width: 55%;
+  margin-top: -75%;
+  margin-left: -23%;
+  transform: rotate(90deg);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.left_wrapper {
+  grid-template-columns: 1;
+  /* position: absolute; */
+  top: 7%;
+  width: 100%;
+}
+
+.finish_wrapper {
+  margin-top: -195%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.unexpected_wrapper {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.curve_wrapper {
+  padding-top: 65%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.soundcraft_wrapper {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 0.2fr 0.2fr;
+  width: 45%;
+   padding-top: 280%;
+   margin-left: 40%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.border_bottom2 {
+  width: 100%;
+  position: absolute;
+  margin-top: 145%;
+  border-bottom: 0.38vw solid #f9f9f9;
+  left: 20%;
+  /* grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4; */
+}
+
+.border_bottom {
+  width: 100%;
+  position: absolute;
+  margin-top: 125%;
+  left: 20%;
+}
+
+.melody_item {
+  position: absolute;
+  right: 85%;
+  top: 112%;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+}
+
+.listen_item {
+  margin-right: -17%;
+  margin-top:85%;
+  /* grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+}
+
+
+.easy_wrapper {
+visibility: hidden;
+}
+
+.soundcraft_gray_item {
+  display: none;
+}
+
+.soundcraft_dark_item {
+  display: none;
+}
+
+.les_end  {
+  display: none;
+}
+
+.border_bottom1 {
+  display: none;
+}
+
+.twins_item {
+  display: none;
+}
+
+.blanket001, .black_row_item_1, .yellow_row_item_1, .white_row_item_1 {
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.curve_row_item_0, .curve_row_item, .curve_row_item_padding {
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.grey_text, .green_text, .blue_text, .yellow_text, .red_text, .gray_small_text, .black_row_text, .white_row_text, .yellow_row_text_2, .yellow_row_text, .easy_green_text,  .easy_late_text, .peak_green_text, .peak_greener_text, .peak_blue_text, .easy_green_text_2, .peak_bluer_text, .peak_yellow_text, .peak_yellower_text, .peak_red_text, .peak_reder_text, .dark_text, .soundcraft_gray_text, .soundcraft_gray_small_text{
+  font-size: 2vw;
+}
+
+.curve_button_text {
+  font-size: 4.8vw;
+}
+
+.yellow_button_text {
+  font-size: 3.9vw;
+}
+
+.listen_button_text {
+  font-size: 3.9vw;
+}
+
+.top_curve_text {
+    font-size: 2.5vw;
+  }
+.easy_red_text, .red_group_text, .twins_red_text {
+  font-size: 2vw;
+}
+
+.gray_stereo_tophvatit, .gray_stereo_top2, .gray_top, .gray_top1 {
+  display: none;
+}
+
+.stereo_item1 {
+  border-left: 0.38vw solid #d8d8d8;
+}
+
+.finish_slider_white {
+  margin-bottom: 17%;
+}
+
+.end {
+  padding-top: 0.9%;
+}
+
+.finish_white_slider_img {
+  width: 98.38%;
+}
+
+}
